@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 209px;
+    background: #000;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_container svg {
+    margin: 50px;
+}
+
+.footer_container span {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+@media screen and (max-width:425px) {
+    .footer_container svg {
+        height: 20px;
+    }
+
+    .footer_container span {
+        font-size: 12px;
+    }
+}

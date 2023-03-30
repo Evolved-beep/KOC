@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.error_value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    color: #FF6060;
+    font-family: 'Montserrat';
+} 
+
+.error_value span{
+    font-size: 288px;
+    font-weight: 700;
+} 
+
+.error_value p {
+    font-size: 36px;
+}
+
+.error_value .redirection {
+    font-size: 18px;
+} 
+
+.redirection a {
+    color: #FF6060;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:425px) {
+    .error_value span {
+        font-size: 96px;   
+    }
+
+    .error_value p {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .error_value .redirection {
+        font-size: 14px;
+    }
+}
