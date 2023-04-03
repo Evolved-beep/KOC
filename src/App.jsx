@@ -5,13 +5,7 @@ import About from './pages/About';
 import ProductDetail from './pages/ProductDetail'
 import Footer from './pages/Footer';
 import Error from './pages/Error';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Routes,  
-  Route, 
-  Link,
-} from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 
 
 function App() {

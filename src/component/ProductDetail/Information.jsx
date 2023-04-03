@@ -1,10 +1,6 @@
 import React from "react";
 import Rating from "./Rating";
-
 const Informations = ({dataInformation, dataLocation, dataCover, dataTags, dataNote}) => {
-    console.log(dataInformation);
-    console.log(dataCover)
-    console.log(dataTags)
      return(
             <div className="detail_container">
                 <div className="information_container">
@@ -23,7 +19,7 @@ const Informations = ({dataInformation, dataLocation, dataCover, dataTags, dataN
                             <p>{dataCover.name}</p>
                             <img src={dataCover.picture} alt="" />
                         </div>
-                        <Rating dataRating={dataNote} maxRate={5}/>
+                        {<Rating dataRating={dataNote} maxRate={5}/>}
                 </div>
         </div>
     ) 
